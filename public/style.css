@@ -1,0 +1,56 @@
+body {
+    font-family: 'Nanum Pen Script', cursive;
+    background-color: #fff0f5;
+    color: #d26a9f;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 2rem;
+}
+
+#countdown {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.banner img {
+    width: 100%;              /* 화면 가로 전체 */
+    height: 500px;            /* 높이 고정 (원하면 조절 가능) */
+    object-fit: cover;        /* 이미지 비율 유지하며 꽉 채우기 */
+    border-bottom: 5px solid #eab6d1;  /* 예쁜 테두리 옵션 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* 그림자 */
+}
+
+header {
+    background-color: #fff0f5;
+    height: 150px;
+    display: flex;
+    align-items: flex-start;    /* ← 위쪽 정렬 */
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.site-title {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 3rem;
+    color: #000000;
+    margin: 0;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.location {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff8fc;
+}
+
+.location h2 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 2.5rem;
+    color: #d66ba0;
+    margin-bottom: 10px;
+}
+
+.location p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
